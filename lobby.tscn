@@ -1,0 +1,60 @@
+[gd_scene load_steps=2 format=3 uid="uid://b4qknjyoalh8x"]
+
+[ext_resource type="Script" uid="uid://ckb5d0lxv7s84" path="res://lobby.gd" id="1_ll2xe"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_ll2xe")
+
+[node name="Background" type="ColorRect" parent="."]
+custom_minimum_size = Vector2(1280, 600)
+offset_left = 1.0
+offset_top = 4.0
+offset_right = 1921.0
+offset_bottom = 1075.0
+color = Color(0.4, 0.050980393, 1, 1)
+
+[node name="Label" type="Label" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 844.0
+offset_top = 374.0
+offset_right = 1108.0
+offset_bottom = 625.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_type_variation = &"HeaderLarge"
+text = "FRIENDLY FIRE...
+BY DEEPANSHU JHA"
+ellipsis_char = ""
+uppercase = true
+
+[node name="StartButton" type="Button" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 884.0
+offset_top = 517.0
+offset_right = 1035.0
+offset_bottom = 599.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "START GAME"
+
+[node name="QuitButton" type="Button" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 889.0
+offset_top = 632.0
+offset_right = 1040.0
+offset_bottom = 714.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "QUIT"
