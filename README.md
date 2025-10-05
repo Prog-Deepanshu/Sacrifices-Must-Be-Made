@@ -75,8 +75,3 @@ Now, Happy Boo faces a heart-wrenching choice: **fight the slimes — once frien
 * Free assets for sprites, sounds, and backgrounds
 * AI used for debugging and logic development in game.gd file for restart and score function
 
----
-
-If you want, I can also **make a version with a short “submission-ready” format with screenshots** for a school or competition submission so it looks more professional and compact.
-
-Do you want me to do that?
